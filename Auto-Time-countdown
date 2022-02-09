@@ -1,0 +1,15 @@
+import time
+def countdown (t):
+    while  t>0:
+        print (t)
+        t = t - 1
+        time.sleep(1)
+    print ("т∂ω ιѕ тнє вєѕт gυιℓ∂ ι єνєя киσω")
+
+print ("How Many Seconds To Count Down? Enter An Integer")
+seconds = input ()
+while not seconds.isdigit ():
+    print ("That Wasn't An Integer Number! Please,Enter An Integer")
+    seconds = input ()
+seconds = int (seconds)
+countdown (seconds)
