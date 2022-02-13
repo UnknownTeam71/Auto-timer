@@ -4,7 +4,10 @@ def countdown (t):
         print (t)
         t = t - 1
         time.sleep(1)
-    print ("HAPPY TERMUX LIFE!Save The virtual!")
+        RED = '\033[31m'
+        BLUE = '\033[44m'
+        STYLE = '\033[1m'
+    print ( RED + BLUE + STYLE + "HAPPY TERMUX LIFE!Save The virtual!")
 
 print ("How Many Seconds To Count Down? Please, Enter An Integer")
 seconds = input ()
